@@ -14,8 +14,8 @@
         >
         <template v-slot:before>
           <q-avatar size="xl">
-          <img src="https:/cdn.quasar.dev/img/avatar5.jpg">
-        </q-avatar>
+          <img :src="require('../assets/doghead.jpg')">
+          </q-avatar>
         </template>
 
         </q-input>
@@ -49,7 +49,7 @@
 
            <q-item-section avatar top>
             <q-avatar>
-              <img src="https:/cdn.quasar.dev/img/avatar5.jpg">
+          <img :src="require('../assets/doghead.jpg')">
             </q-avatar>
           </q-item-section>
 
@@ -148,4 +148,3 @@ export default {
     white-space: pre-line
 
 </style>
-
